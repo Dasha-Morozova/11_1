@@ -15,5 +15,5 @@ def CorrPlt(data,Selected_features):
   plt.subplots(figsize=(8, 5))
   sns.heatmap(X.corr(), annot=True, cmap="RdYlGn",vmin=-1, vmax=1)
   plt.show()
-print(CorrPlt(data,Selected_features))
+CorrPlt(data,Selected_features)
 print(data.isna().sum())
