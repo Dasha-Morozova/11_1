@@ -17,3 +17,4 @@ def CorrPlt(data,Selected_features):
   plt.show()
 CorrPlt(data,Selected_features)
 print(data.isna().sum())
+print(data.shape[0])
